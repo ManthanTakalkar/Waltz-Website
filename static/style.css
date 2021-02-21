@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+
+#navbar{
+    background-color: red;
+    padding: 9px 12px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: Tahoma, sans-serif;
+}
+
+#logo img{
+    height: 27px;
+    filter: invert(1);
+    margin-right: 2px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}  
+#navbar li a:hover{
+    color: black;
+}
+
+#introsection{
+    background: center/cover no-repeat url(../static/intro\ bg.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: red;
+}
+#introsection h1{
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+#introsection h3{
+   padding: 11PX;
+}
+
+#mission{
+    height: 300px;
+    width: 68%;
+    margin: auto;
+
+    
+}
+#mission h2{
+    text-align: center;
+    padding-top: 14px;
+    font-size: 1.8rem;    
+}
+#mission .box{
+    border: 2px solid black;
+    height: 203px;
+    width: 30%;
+    display: inline-block;
+    border-radius: 11px;
+    margin: 19px 15px;
+}
+.box h3{
+    text-align: center;
+    padding-top: 14px;
+    font-size: 1.3rem;    
+}
+
+.box-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-img{
+    height: 130px;
+    padding: 12px 19px;
+}
+.card-img img{
+    height: inherit;
+}
+ .content{
+   margin-right: 20px;
+   text-align: center;
+}
+
+#sponser{
+    background-color: rgb(224, 170, 215) ;
+    height: 300px;    
+}
+#client{
+    margin: 21px auto;
+    height: 59%;
+    max-width: 62%;
+}
+.sponser-img{
+    height: 80%;
+    margin: 25px;
+} 
+ #sponser h1{
+      text-align: center;
+      padding-top: 14px;
+     font-size: 1.8rem;
+ }
+
+#contact{
+    background-color: rgb(110, 139, 219) ;
+    height: 300px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+    color: white;
+}

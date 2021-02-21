@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Dance Website
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                 img(src="/static/img/lady.png", alt="")
+                 |<b>M</b><h6>anthan</h6>
+                 |<b>K</b><h6>ailas</h6>
+                 |<b>T</b><h6>akalkar</h6>
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+
+    block content
+    section#footer
+      | Copyright © 2020 MktDanceAcademy.com | All rights reserved

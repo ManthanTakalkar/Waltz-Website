@@ -1,0 +1,69 @@
+doctype html
+html
+  head
+    title Dance Website
+    style
+     include ../static/style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/img/lady.png", alt="")
+          | MKT
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Contact Us]
+
+  section#introsection
+     h1 WELCOME TO MKT'S DANCE ACADEMY
+     h3 Eat Sleep Dance Repeat
+
+  section#mission
+    h2 Our Mission
+    div.box
+      h3 Lorem ipsum
+      div.box-card
+        div.card-img
+          img(src="/static/img/img11.png", alt="loading")
+        div.content
+          p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+    div.box
+      h3 Lorem dolor
+      div.box-card 
+        div.card-img
+          img(src="/static/img/img2.png", alt="loading")
+        div.content
+          p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+    div.box
+      h3 Lorem style
+      div.box-card
+        div.card-img
+          img(src="/static/img/nav-logo.jpg", alt="loading")
+        div.content
+          p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
+     
+
+  section#sponser
+      h1 Our Sponser
+      div#client
+        img(src="/static/img/skype.png", class="sponser-img")
+        img(src="/static/img/apple.png", class="sponser-img")
+        img(src="/static/img/logo3.png", class="sponser-img")
+        img(src="/static/img/hp.png",    class="sponser-img")
+           
+        
+ 
+
+  section#contact
+      | contact section 
+
+  section#footer
+      | Copyright © 2020 MktDanceAcademy.com | All rights reserved
+
+  script
+      include ../static/script.js
+
+    
+    
